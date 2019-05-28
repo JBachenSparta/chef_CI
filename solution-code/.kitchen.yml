@@ -28,7 +28,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[node::default]
+      # - recipe[node::default]
     verifier:
       inspec_tests:
         - test/integration/default
