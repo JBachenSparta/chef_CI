@@ -31,10 +31,10 @@
 
 driver:
   name: ec2
-  region: eu-west-1
+  region: eu-west-2
   require_chef_type: t2.micro
-  subnet_id: subnet-0e9b6138ff1ce18f2
-  aws_ssh_key_id: DevOpsStudentsEng2932
+  subnet_id: subnet-054cacef31a448807
+  aws_ssh_key_id: <%= ENV['AWS_SECRET_ACCESS_KEY']%>
   associate_public_ip: true
 
 vaerifier:
