@@ -6,7 +6,7 @@ driver:
   # This is the subnet id for DevOpsStudents
   subnet_id: subnet-0e9b6138ff1ce18f2
   # Name of the DevOpsStudents key
-  aws_ssh_key_id: DevOpsStudents
+  aws_ssh_key_id: DevOpsStudentsEng2933
   associate_public_ip: true
 # transport:
 #   # Use our key from machine to access the test machine
@@ -26,4 +26,4 @@ suites:
     verifier:
       inspec_tests:
         - test/integration/default
-    attributes
+    attributes:
